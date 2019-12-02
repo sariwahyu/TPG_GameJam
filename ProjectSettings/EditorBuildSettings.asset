@@ -8,4 +8,31 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 657487c96afa7b14ca35096d968e1b45
+  - enabled: 1
+    path: Assets/Level.unity
+    guid: 5df92ddd03f18404f8cf411abff54046
+  - enabled: 1
+    path: Assets/Level1.unity
+    guid: edd814ee95dbeb942885fdb48a50b318
+  - enabled: 1
+    path: Assets/Level2.unity
+    guid: 8671a8f695b62684cbe48c558394927b
+  - enabled: 1
+    path: Assets/Level3.unity
+    guid: bbfcadf9e6a3d314b907bce0c03aefd3
+  - enabled: 1
+    path: Assets/Level4.unity
+    guid: a71acfbef38670d4cbaad23343c6af28
+  - enabled: 1
+    path: Assets/Level5.unity
+    guid: 3ea210a2877088742be0f4f0e1435e05
+  - enabled: 1
+    path: Assets/Petunjuk.unity
+    guid: d830dd8d77f130141b661028037cdc7c
+  - enabled: 1
+    path: Assets/Credit.unity
+    guid: 99566a88d5df90c4a98214a23e6281ef
   m_configObjects: {}
