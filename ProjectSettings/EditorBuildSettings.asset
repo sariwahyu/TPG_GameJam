@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level5.unity
     guid: 3ea210a2877088742be0f4f0e1435e05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Petunjuk.unity
     guid: d830dd8d77f130141b661028037cdc7c
   - enabled: 1

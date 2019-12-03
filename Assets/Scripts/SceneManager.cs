@@ -17,6 +17,16 @@ public class SceneManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(SceneString);
     }
 
+    internal static void LoadScene(object buildIndex)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static object GetActiveScene()
+    {
+        throw new NotImplementedException();
+    }
+
     public void QuitGame()
     {
         Debug.Log("QUIT");

@@ -31,5 +31,6 @@ public class StatusIndicator : MonoBehaviour
 
         healthBarRect.localScale = new Vector3(_value, healthBarRect.localScale.y, healthBarRect.localScale.z);
         healthText.text = _cur + "/" + _max + "HP";
+
     }
 }

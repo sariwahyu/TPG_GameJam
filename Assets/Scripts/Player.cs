@@ -42,6 +42,23 @@ public class Player : MonoBehaviour
           statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
       }
    }
+    public void EndGame()
+    {
+        Debug.Log("Game Over");
+        gameOver.SetActive(true);
+    }
+
+    public void WinGame()
+    {
+        Debug.Log("WinGame");
+        winGame.SetActive(true);
+    }
+
+    [SerializeField]
+    private GameObject gameOver;
+
+    [SerializeField]
+    private GameObject winGame;
 
     void Update()
     {
@@ -57,10 +74,20 @@ public class Player : MonoBehaviour
         if(stats.curHealth <= 0)
         {
             GameMaster.KillPlayer(this);
+            EndGame();
         }
 
         statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
 
+    }
+
+    void OnTriggerEnter2D(Collider2D trig)
+    {
+        if (trig.gameObject.CompareTag("win"))
+        {
+            WinGame();
+
+        }
     }
 
 }
