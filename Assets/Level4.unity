@@ -3504,12 +3504,12 @@ PrefabInstance:
         type: 3}
       propertyPath: gameOver
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 894267199}
     - target: {fileID: 2010533044887365082, guid: ef4820fe2acb59d4c8afb78519f9afea,
         type: 3}
       propertyPath: winGame
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 69231378}
     - target: {fileID: 2010533043055746967, guid: ef4820fe2acb59d4c8afb78519f9afea,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -4415,7 +4415,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Level4
+            m_StringArgument: Level5
             m_BoolArgument: 0
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
