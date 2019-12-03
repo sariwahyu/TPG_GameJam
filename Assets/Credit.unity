@@ -416,7 +416,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1001 Font, \nArcade Classic by Pizzadude\n\nwww.audioblocks.com\n\nBrackeys\n\n"
+  m_Text: "1001 Font, \nArcade Classic by Pizzadude\n\nwww.audioblocks.com\n\nBrackeys\n\rLemau
+    Dev\n"
 --- !u!222 &479921153
 CanvasRenderer:
   m_ObjectHideFlags: 0

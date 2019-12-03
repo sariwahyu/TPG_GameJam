@@ -26,22 +26,22 @@ public class Player : MonoBehaviour
     public PlayerStats stats = new PlayerStats();
     public int fallBoundary = -20;
 
-    //[SerializeField]
-    //private StatusIndicator statusIndicator;
+    [SerializeField]
+    private StatusIndicator statusIndicator;
 
    //void Start()
    // {
-       // stats.Init();
+      //  stats.Init();
 
-        //if (statusIndicator == null)
+       // if (statusIndicator == null)
        // {
-       //    Debug.LogError("No Status Indicator reference on Player");
-        //}
-        //else
-        //{
-            //statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+       //   Debug.LogError("No Status Indicator reference on Player");
        // }
-    //}
+       // else
+       // {
+         //   statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+       // }
+   // }
 
     void Update()
     {
