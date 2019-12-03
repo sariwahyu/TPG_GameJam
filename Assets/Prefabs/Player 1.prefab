@@ -473,9 +473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3adb2b2e8ca71704a8b576b3ef2d269d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerStats:
-    Health: 100
+  stats:
+    maxHealth: 100
   fallBoundary: -20
+  statusIndicator: {fileID: 0}
 --- !u!1 &2010533045112414784
 GameObject:
   m_ObjectHideFlags: 0

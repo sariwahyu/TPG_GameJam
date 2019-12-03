@@ -29,19 +29,19 @@ public class Player : MonoBehaviour
     [SerializeField]
     private StatusIndicator statusIndicator;
 
-   //void Start()
-   // {
-      //  stats.Init();
+   void Start()
+   {
+      stats.Init();
 
-       // if (statusIndicator == null)
-       // {
-       //   Debug.LogError("No Status Indicator reference on Player");
-       // }
-       // else
-       // {
-         //   statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
-       // }
-   // }
+        if (statusIndicator == null)
+       {
+         Debug.LogError("No Status Indicator reference on Player");
+        }
+        else
+       {
+          statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+      }
+   }
 
     void Update()
     {
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
             GameMaster.KillPlayer(this);
         }
 
-        //statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+        statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
 
     }
 
